@@ -93,6 +93,10 @@ hr {
 	background-image: url("../images/jumbo.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
