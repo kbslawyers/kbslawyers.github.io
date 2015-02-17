@@ -1,0 +1,267 @@
+@font-face {
+	font-family: "Baron-Neue";
+	src: url("../fonts/Baron-Neue.otf");
+}
+
+/* Global attributes */
+
+body {
+	color: #3f3c3b;
+}
+
+@media (min-width: 768px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 1280px) {
+	body {
+		font-size: 18px;
+	}
+}
+
+hr {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-color: #dedede;
+}
+
+/* A full screen container */
+
+.container-fullscreen {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navbar-black {
+	background-color: #262424;
+}
+
+.title {
+	color: white;
+	text-decoration: none
+}
+
+.title:hover {
+	color: #ac9581;
+	text-decoration: none
+;}
+
+.title:visited {
+    color: white;
+    text-decoration: none
+}
+
+.title:active {
+	color: white;
+	text-decoration: none
+}
+
+.navigation ul {
+	list-style-type: none;
+}
+
+.navigation li {
+	list-style-type: none;
+	padding: 16px;
+}
+
+/* Navigation Bar CSS */
+.navigation-items {
+	float: right;
+}
+
+.navigation-items a {
+	font-size: 11px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.15em;
+	color: white;
+	text-decoration: none;
+}
+
+.navigation-items a:hover {
+	color: #ac9581;
+	text-decoration: none
+;}
+
+/* Jumbotitle CSS */
+
+.jumbotitle {
+	text-align: center;
+	background-image: url("../images/jumbo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.jumbotitle h1 {
+	font-family: "Roboto Slab", sans-serif;
+	font-weight: 300;
+	font-size: 2.5em;
+	color: white;
+	margin-bottom: 60px;
+}
+
+.jumbocenter {
+	position: relative;
+}
+
+#white-hollow-button {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 4px;
+	border-color: white;
+	color: white;
+	padding: 1.2em;
+	font-size: 0.8em;
+	text-decoration: none;
+
+	-webkit-transition-property: background, color
+       -moz-transition-property: background, color;
+         -o-transition-property: background, color;
+            transition-property: background, color;
+    -webkit-transition-duration: 0.2s;
+       -moz-transition-duration: 0.2s;
+         -o-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    -webkit-transition-timing-function: linear;
+       -moz-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+            transition-timing-function: linear;
+}
+
+#white-hollow-button:hover {
+	background-color: white;
+	color: #ac9581;
+	text-decoration: none;
+}
+
+/* Section CSS */
+
+.section {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.section a:link {
+    color: #ac9581;
+}
+
+.section h1 {
+	font-family: "Baron-Neue", sans-serif;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+}
+
+.section h2 {
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.section p {
+	font-family: "Roboto Slab", serif;
+	font-size: 1.1em;
+	font-weight: 300;
+	line-height: 2;
+}
+
+.section hr {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 3em;
+}
+
+.bio {
+	text-align: left;
+}
+
+.bio h2 {
+	font-size: 1.3em;
+}
+
+.bio p {
+	font-size:0.9em;
+}
+
+
+.contact {
+	background-color: #262424;
+	color: white;
+}
+
+.contact p {
+	text-align: left;
+	font-size: 1em;
+}
+
+.contact h2 {
+	text-align: left;
+	font-size: 1.3em;
+}
+
+.biginfo {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+	background: -webkit-linear-gradient(left top, #ac9581, #2d2926); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(bottom right, #ac9581, #2d2926); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(bottom right, #ac9581, #2d2926); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to bottom right, #ac9581, #2d2926); /* Standard syntax */
+}
+
+.biginfo h1 {
+	font-family: "Roboto Slab", sans-serif;
+	font-weight: 300;
+	font-size: 1.8em;
+	letter-spacing: 0em;
+	color: white;
+	margin-bottom: 50px;
+}
+
+.rice-bg {
+	background-repeat: repeat;
+	background-image: url("../images/ricepaper.png");
+}
+
+.service-item {
+	padding: 0px 30px 0px 30px;
+}
+
+.service-item p {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	font-size: 16px;
+	color: #6d6d6d;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.service-item img {
+	width: 100px;
+	height: 100px;
+}
+
+/* Google Map CSS */
+
+#map_canvas {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 300px;
+	background-color: #CCC;
+}
